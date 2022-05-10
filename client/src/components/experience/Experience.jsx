@@ -1,12 +1,12 @@
 import React from 'react'
 import "./experience.css"
 
-const Exprience = () => {
+const Experience = () => {
   return (
-    <div>
+    <section id="experience">
       experience
-    </div>
+    </section>
   )
 }
 
-export default Exprience
+export default Experience

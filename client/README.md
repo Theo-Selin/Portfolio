@@ -1,3 +1,59 @@
+# TODO:
+    - About Component CSS
+    - About Component Responsive Design
+    - About Component CSS
+    - About Component Responsive Design
+    - Experience Component JSX
+    - Experience Component CSS
+    - Experience Component Responsive Design
+    - Services Component JSX
+    - Services Component CSS
+    - Services Component Responsive Design
+    - Portfolio Component JSX
+    - Portfolio Component CSS
+    - Portfolio Component Responsive Design
+    - Generating Portfolio Items from Array using map method
+    - Testimonials Component JSX
+    - Testimonials Component CSS
+    - Testimonials Component Responsive Design
+    - Generating Testimonials from Array using map method
+    - Creating Carousel/Slides using SwiperJS
+    - Contact Component JSX (Multiple contact options: Facebook Messenger, WhatsApp & Email)
+    - Contact Component CSS
+    - Contact Component Responsive Design
+    - Form Submission using EmailJS
+    - Footer Component JSX
+    - Footer Component CSS
+    - Footer Component Responsive Design
+    - Deploying React Website
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
