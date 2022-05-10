@@ -1,8 +1,4 @@
 # TODO:
-    - About Component CSS
-    - About Component Responsive Design
-    - About Component CSS
-    - About Component Responsive Design
     - Experience Component JSX
     - Experience Component CSS
     - Experience Component Responsive Design

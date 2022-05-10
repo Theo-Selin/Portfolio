@@ -24,9 +24,9 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: fixed;
+    position: absolute;
     left: 10rem;
-    bottom: 3rem;
+    bottom: 10rem;
     font-size: 1.5rem
 }
 
@@ -45,9 +45,9 @@ header {
 .message {
     background-color: var(--color-primary);
     border-radius: 50%;
-    position: fixed;
+    position: absolute;
     right: 10rem;
-    bottom: 5rem;
+    bottom: 13rem;
     font-weight: 300;
     font-size: 2rem;
     padding: 1rem;
@@ -56,7 +56,7 @@ header {
 }
 
 .message:hover {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM) ================ */
@@ -64,6 +64,13 @@ header {
     header {
         height: 68vh;
     }
+
+    a.btn.btn-primary,
+    .header__socials, 
+    .message {
+        display: none;
+    }
+
 }
 
 /* ================ MEDIA QUERIES (SMALL) ================ */

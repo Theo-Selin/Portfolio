@@ -12,7 +12,7 @@
 
 :root {
     --color-bg: rgb(21, 21, 21);
-    --color-bg-variant: rgb(44, 44, 108);
+    --color-bg-variant: rgb(31, 31, 31);
     --color-primary: rgb(77, 181, 255);
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
@@ -20,7 +20,7 @@
 
     --transition: all 200ms ease;
 
-    --container-width-lg: 75%;
+    --container-width-lg: 50%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
@@ -56,7 +56,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    padding-top: 10rem;
     height: 100vh;
 }
 
