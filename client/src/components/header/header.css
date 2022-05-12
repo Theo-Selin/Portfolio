@@ -1,5 +1,5 @@
 header {
-    height: 110vh;
+    height: 91vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -7,7 +7,6 @@ header {
 .header__container {
     text-align: center;
     height: 100%;
-    position: relative;
 }
 
 /* ================ CTA ================ */
@@ -24,9 +23,9 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
+    position: fixed;
     left: 10rem;
-    bottom: 10rem;
+    bottom: 3rem;
     font-size: 1.5rem
 }
 
@@ -45,9 +44,9 @@ header {
 .message {
     background-color: var(--color-primary);
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     right: 10rem;
-    bottom: 13rem;
+    bottom: 5rem;
     font-weight: 300;
     font-size: 2rem;
     padding: 1rem;
@@ -63,7 +62,9 @@ header {
 /* ================ MEDIA QUERIES (MEDIUM) ================ */
 @media screen and (max-width: 1024px) {
 
-    a.btn.btn-primary {
+    a.btn.btn-primary,
+    .header__socials, 
+    .message {
         display: none;
     }
 

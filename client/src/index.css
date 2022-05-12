@@ -11,9 +11,9 @@
 }
 
 :root {
-    --color-bg: rgb(21, 21, 21);
-    --color-bg-variant: rgb(31, 31, 31);
-    --color-primary: rgb(77, 181, 255);
+    --color-bg: rgb(27, 27, 27);
+    --color-bg-variant: rgb(35, 35, 35);
+    --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
@@ -43,6 +43,7 @@ body {
 
 /* ================ GENERAL STYLES ================ */
 .container {
+    z-index: 1;
     width: var(--container-width-lg);
     margin: 0 auto;
 }
@@ -57,8 +58,8 @@ h1 {
 
 section {
     border-top: 2px solid var(--color-bg-variant);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
 }
 
 section > h2, section > h5 {
@@ -78,6 +79,7 @@ section > h2 {
 a {
     color: var(--color-primary);
     transition: var(--transition);
+    z-index: 1;
 }
 
 a:hover {

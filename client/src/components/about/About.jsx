@@ -41,8 +41,7 @@ const About = () => {
             mollitia perferendis pariatur sunt ex deleniti nulla praesentium omnis distinctio. 
             Esse, maiores perferendis!
           </p>
-
-          <a href="#contact" className="btn btn-primary">Let's talk</a>
+          
         </div>
       </div>
     </section>
