@@ -33,7 +33,7 @@
 
 .about__card {
     background: var(--color-bg-variant);
-    border: 1px solid transparent;
+    border: 1px solid var(--color-variant);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -41,8 +41,7 @@
 }
 
 .about__card:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-primary);
     cursor: default;
 }
 
@@ -79,6 +78,10 @@
         margin: 2rem auto 4rem;
     }
 
+    .about__me_image {
+        padding-bottom: 1rem;
+    }
+
     .about__content p {
         margin: 1rem 0 1.54rem;
     }
@@ -94,6 +97,10 @@
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+    }
+
+    .about__card_projects {
+        display: none;
     }
 
     .about__content {

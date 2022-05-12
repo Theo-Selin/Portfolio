@@ -28,7 +28,7 @@ const About = () => {
               <h5>Education</h5>
               <small>Nackademin</small>
             </article>
-            <article className="about__card">
+            <article className="about__card about__card_projects">
               <FaGem className="about__icon" />
               <h5>Projects</h5>
               <small>2+ Projects</small>

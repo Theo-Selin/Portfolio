@@ -56,8 +56,9 @@ h1 {
 }
 
 section {
-    padding-top: 10rem;
-    height: 100vh;
+    border-top: 2px solid var(--color-bg-variant);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 section > h2, section > h5 {
@@ -115,10 +116,6 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md)
-    }
-    section {
-        margin-top: 6rem;
-        height: 100vh; 
     }
 }
 
