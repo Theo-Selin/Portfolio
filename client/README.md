@@ -1,7 +1,4 @@
 # TODO:
-    - Experience Component JSX
-    - Experience Component CSS
-    - Experience Component Responsive Design
     - Services Component JSX
     - Services Component CSS
     - Services Component Responsive Design
