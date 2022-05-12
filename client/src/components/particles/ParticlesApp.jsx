@@ -19,6 +19,7 @@ const ParticlesApp = () => {
       options={{
         fullScreen: false,
         fpsLimit: 144,
+
         "particles": {
           "number": {
             "value": 10,
@@ -37,7 +38,7 @@ const ParticlesApp = () => {
               "color": "#000000"
             },
             "polygon": {
-              "nb_sides": 12
+              "nb_sides": 5
             },
             "image": {
               "src": "img/github.svg",
@@ -76,7 +77,7 @@ const ParticlesApp = () => {
             "enable": true,
             "speed": 0.5,
             "direction": "bottom",
-            "random": false,
+            "random": true,
             "straight": false,
             "out_mode": "bounce",
             "bounce": false,
@@ -91,12 +92,12 @@ const ParticlesApp = () => {
           "detect_on": "canvas",
           "events": {
             "onhover": {
-              "enable": false,
-              "mode": "grab"
+              "enable": true,
+              "mode": "bubble",
             },
             "onclick": {
               "enable": true,
-              "mode": "push"
+              "mode": "push",
             },
             "resize": true
           },
@@ -108,11 +109,11 @@ const ParticlesApp = () => {
               }
             },
             "bubble": {
-              "distance": 400,
-              "size": 40,
-              "duration": 2,
-              "opacity": 8,
-              "speed": 3
+              "distance": 100,
+              "size": 4,
+              "duration": .8,
+              "opacity": .8,
+              "speed": .2
             },
             "repulse": {
               "distance": 200,
