@@ -4,10 +4,12 @@ import CTA from "./CTA"
 import ME from "../../assets/me.png"
 import HeaderSocials from './HeaderSocials'
 import {FaEnvelope} from "react-icons/fa"
+import Loop from '../loop/Loop'
 
 const Header = () => {
   return (
     <header>
+      <Loop />
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Theo Selin</h1>
@@ -15,9 +17,9 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
 
-        <div className="me">
+        {/* <div className="me">
           <img src={ME} alt="me" />
-        </div>
+        </div> */}
 
         <a href="#contact" className="message"><FaEnvelope/></a>
 

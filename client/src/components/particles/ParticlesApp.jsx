@@ -29,7 +29,7 @@ const ParticlesApp = () => {
             }
           },
           "color": {
-            "value": "#54aaf7"
+            "value": "#dff754"
           },
           "shape": {
             "type": "circle",
@@ -47,7 +47,7 @@ const ParticlesApp = () => {
             }
           },
           "opacity": {
-            "value": 0.3928359549120531,
+            "value": 0.5,
             "random": true,
             "anim": {
               "enable": true,
@@ -75,11 +75,11 @@ const ParticlesApp = () => {
           },
           "move": {
             "enable": true,
-            "speed": 0.5,
-            "direction": "bottom",
+            "speed": 3,
+            "direction": "left",
             "random": true,
             "straight": false,
-            "out_mode": "bounce",
+            "out_mode": "destroy",
             "bounce": false,
             "attract": {
               "enable": true,
@@ -110,9 +110,9 @@ const ParticlesApp = () => {
             },
             "bubble": {
               "distance": 100,
-              "size": 4,
+              "size": 3,
               "duration": .8,
-              "opacity": .8,
+              "opacity": .9,
               "speed": .2
             },
             "repulse": {

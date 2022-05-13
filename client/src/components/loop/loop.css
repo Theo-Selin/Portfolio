@@ -1,0 +1,93 @@
+.scrolling__image_container {
+    overflow: hidden;
+}
+
+.scrolling__image {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 200%;
+}
+
+.image1 {
+    z-index: -1;
+    background: url("./assets/Layer_0000.png") repeat-x;
+    animation: slide 20s linear infinite;
+}
+.image2 {
+    z-index: -2;
+    background: url("./assets/Layer_0001.png") repeat-x;
+    animation: slide 22s linear infinite;
+}
+.image3 {
+    z-index: -3;
+    background: url("./assets/Layer_0002.png") repeat-x;
+    animation: slide 24s linear infinite;
+}
+.image4 {
+    z-index: -4;
+    background: url("./assets/Layer_0003.png") repeat-x;
+    animation: slide 26s linear infinite;
+}
+.image5 {
+    z-index: -5;
+    background: url("./assets/Layer_0004_Lights.png") repeat-x;
+    animation: slide 28s linear infinite;
+}
+.image6 {
+    z-index: -6;
+    background: url("./assets/Layer_0005.png") repeat-x;
+    animation: slide 30s linear infinite;
+}
+.image7 {
+    z-index: -7;
+    background: url("./assets/Layer_0006.png") repeat-x;
+    animation: slide 32s linear infinite;
+}
+.image8 {
+    z-index: -8;
+    background: url("./assets/Layer_0007_Lights.png") repeat-x;
+    animation: slide 34s linear infinite;
+}
+.image9 {
+    z-index: -9;
+    background: url("./assets/Layer_0008.png") repeat-x;
+    animation: slide 36s linear infinite;
+}
+.image10 {
+    z-index: -10;
+    background: url("./assets/Layer_0009.png") repeat-x;
+    animation: slide 38s linear infinite;
+}
+.image11 {
+    z-index: -11;
+    background: url("./assets/Layer_0010.png") repeat-x;
+    animation: slide 40s linear infinite;
+}
+.image12 {
+    z-index: -12;
+    background: url("./assets/Layer_0011.png") repeat-x;
+    animation: slide 42s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-928px);
+    }
+}
+
+/* ================ MEDIA QUERIES (MEDIUM) ================ */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* ================ MEDIA QUERIES (SMALL) ================ */
+@media screen and (max-width: 600px) {
+    .header__socials, 
+    .message {
+        display: none;
+    }
+}

@@ -26,10 +26,6 @@
     transition: var(--transition)
 }
 
-.about__me_image:hover {
-    transform: rotate(-2deg)
-}
-
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

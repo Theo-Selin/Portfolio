@@ -12,7 +12,7 @@
 
 :root {
     --color-bg: rgb(27, 27, 27);
-    --color-bg-variant: rgb(35, 35, 35);
+    --color-bg-variant: #0C1122;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
@@ -27,9 +27,10 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-::-webkit-scroll-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
