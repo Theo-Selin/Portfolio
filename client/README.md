@@ -1,11 +1,4 @@
 # TODO:
-    - Services Component JSX
-    - Services Component CSS
-    - Services Component Responsive Design
-    - Portfolio Component JSX
-    - Portfolio Component CSS
-    - Portfolio Component Responsive Design
-    - Generating Portfolio Items from Array using map method
     - Testimonials Component JSX
     - Testimonials Component CSS
     - Testimonials Component Responsive Design

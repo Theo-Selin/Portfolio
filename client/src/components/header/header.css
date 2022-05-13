@@ -61,8 +61,6 @@ header {
 
 /* ================ MEDIA QUERIES (MEDIUM) ================ */
 @media screen and (max-width: 1024px) {
-
-    a.btn.btn-primary,
     .header__socials, 
     .message {
         display: none;
@@ -72,7 +70,6 @@ header {
 
 /* ================ MEDIA QUERIES (SMALL) ================ */
 @media screen and (max-width: 600px) {
-
     .header__socials, 
     .message {
         display: none;
