@@ -1,9 +1,4 @@
 # TODO:
-    - Testimonials Component JSX
-    - Testimonials Component CSS
-    - Testimonials Component Responsive Design
-    - Generating Testimonials from Array using map method
-    - Creating Carousel/Slides using SwiperJS
     - Contact Component JSX (Multiple contact options: Facebook Messenger, WhatsApp & Email)
     - Contact Component CSS
     - Contact Component Responsive Design
