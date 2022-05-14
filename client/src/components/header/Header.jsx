@@ -1,7 +1,8 @@
 import React from 'react'
 import "./header.css"
 import CTA from "./CTA"
-import ME from "../../assets/me.png"
+import ME from "../../assets/TheoPixel.gif"
+import CAT from "../../assets/SionPixel.gif"
 import HeaderSocials from './HeaderSocials'
 import {FaEnvelope} from "react-icons/fa"
 import Loop from '../loop/Loop'
@@ -16,10 +17,9 @@ const Header = () => {
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
         <HeaderSocials />
+        <img className="cat" src={CAT} alt="cat" />
+        <img className="me" src={ME} alt="me" />
 
-        {/* <div className="me">
-          <img src={ME} alt="me" />
-        </div> */}
 
         <a href="#contact" className="message"><FaEnvelope/></a>
 

@@ -1,7 +1,6 @@
 header {
-    height: 59vh;
+    height: 59%;
     padding-top: 13rem;
-    overflow: hidden;
 }
 
 .header__container {
@@ -31,13 +30,15 @@ header {
 
 /* ================ ME ================ */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 29.4rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 10rem 40rem 10rem 10rem;
+    width: 10rem;
+    display: inline-block;
+    margin-top: 11.3rem;
+}
+
+.cat {
+    width: 3.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 
 /* ================ SCROLL DOWN ================ */
