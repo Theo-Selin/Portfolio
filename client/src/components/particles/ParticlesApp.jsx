@@ -83,8 +83,8 @@ const ParticlesApp = () => {
             "bounce": false,
             "attract": {
               "enable": true,
-              "rotateX": 160.3412060865523,
-              "rotateY": 240.5118091298284
+              "rotateX": 500,
+              "rotateY": 500
             }
           }
         },

@@ -62,7 +62,7 @@
 .image11 {
     z-index: -11;
     background: url("./assets/Layer_0010.png") repeat-x;
-    animation: slide 58s linear infinite;
+    background-size: 25%;
 }
 .image12 {
     z-index: -12;
