@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-bg: rgb(27, 27, 27);
+    --color-bg: #10172c;
     --color-bg-variant: #0c1122;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -32,6 +32,15 @@ html {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    box-shadow: none;
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-bg-variant) inset;
+    -webkit-text-fill-color: var(--color-white);
 }
 
 body {
@@ -62,6 +71,7 @@ section {
     border-top: 2px solid var(--color-bg-variant);
     padding-top: 9rem;
     padding-bottom: 9rem;
+    border-bottom: 1px solid var(--color-bg)
 }
 
 section > h2, section > h5 {
@@ -92,8 +102,8 @@ a:hover {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
+    padding: 0.50rem 1.5rem;
+    border-radius: 2rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);

@@ -2,39 +2,39 @@ import React from "react";
 import SkillBar from "react-skillbars";
 import "./experience.css";
 import { AiFillCheckCircle } from "react-icons/ai";
-import {GiMuscleUp} from "react-icons/gi"
+import BOOK from "../../assets/book.gif"
 
 const frontendSkills = [
   { 
     type: "JavaScript", 
-    level: 45,
+    level: 60
   },
   { 
     type: "React", 
-    level: 55 
+    level: 80
   },
   { 
     type: "HTML", 
-    level: 75 
+    level: 90 
   },
   { 
     type: "CSS", 
-    level: 45 
+    level: 70
   },
 ];
 
 const backendSkills = [
   { 
     type: "Node.js", 
-    level: 45 
+    level: 40 
   },
   { 
     type: "Express", 
-    level: 55 
+    level: 65
   },
   { 
     type: "MongoDB", 
-    level: 75 
+    level: 50
   },
   { 
     type: "MySQL", 
@@ -47,7 +47,7 @@ const Experience = () => {
     <section id="experience">
       <h5>Stats Allocation</h5>
       <h2>Build</h2>
-      <h2><GiMuscleUp className="buildIcon"/></h2>
+      <img src={BOOK} className="buildIcon" alt="book" />
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -80,7 +80,7 @@ const Experience = () => {
               <AiFillCheckCircle className="experience__details_icon"/>
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Novice</small>
               </div>
             </article>
 
@@ -88,7 +88,7 @@ const Experience = () => {
               <AiFillCheckCircle className="experience__details_icon"/>
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -108,7 +108,7 @@ const Experience = () => {
               <AiFillCheckCircle className="experience__details_icon"/>
               <div>
                 <h4>Node.js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Novice</small>
               </div>
             </article>
 
@@ -124,7 +124,7 @@ const Experience = () => {
               <AiFillCheckCircle className="experience__details_icon"/>
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Novice</small>
               </div>
             </article>
 
@@ -132,7 +132,7 @@ const Experience = () => {
               <AiFillCheckCircle className="experience__details_icon"/>
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Novice</small>
               </div>
             </article>
           </div>

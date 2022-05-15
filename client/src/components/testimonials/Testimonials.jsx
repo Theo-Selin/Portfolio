@@ -16,21 +16,25 @@ import 'swiper/css/pagination';
 
 const data = [
   {
+    id: 1,
     avatar: AVATAR1,
     name: "Oskar Syverstad",
     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, maxime et. Fugiat praesentium harum explicabo ducimus commodi, ipsa quam. Deleniti blanditiis vel expedita debitis culpa. Esse id assumenda culpa sapiente." 
   },
   {
+    id: 2,
     avatar: AVATAR2,
     name: "Oskar Syverstad",
     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, maxime et. Fugiat praesentium harum explicabo ducimus commodi, ipsa quam. Deleniti blanditiis vel expedita debitis culpa. Esse id assumenda culpa sapiente." 
   },
   {
+    id: 3,
     avatar: AVATAR3,
     name: "Oskar Syverstad",
     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, maxime et. Fugiat praesentium harum explicabo ducimus commodi, ipsa quam. Deleniti blanditiis vel expedita debitis culpa. Esse id assumenda culpa sapiente." 
   },
   {
+    id: 4,
     avatar: AVATAR4,
     name: "Oskar Syverstad",
     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, maxime et. Fugiat praesentium harum explicabo ducimus commodi, ipsa quam. Deleniti blanditiis vel expedita debitis culpa. Esse id assumenda culpa sapiente." 
@@ -50,9 +54,9 @@ const Testimonials = () => {
             pagination={{ clickable: true }}
       >
         {
-          data.map(({avatar, name, review, index}) => {
+          data.map(({avatar, name, review, id}) => {
             return (
-              <SwiperSlide key={index} className="testimonial">
+              <SwiperSlide key={id} className="testimonial">
               <div className="client__avatar">
                 <img src={avatar} alt={name} />
               </div>

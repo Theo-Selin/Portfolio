@@ -17,28 +17,17 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Beautiful immersive design</p>
             </li>
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Fun and interactive</p>
             </li>
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Unique experiences</p>
             </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
+
           </ul>
         </article>
 
@@ -50,60 +39,36 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Structured readable code</p>
             </li>
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Responsive on several platforms</p>
             </li>
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>High performance</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Social Skills</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Positive working environment</p>
             </li>
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Good communication</p>
             </li>
             <li>
               <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service__list_icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Motivating and ambitious</p>
             </li>
           </ul>
         </article>

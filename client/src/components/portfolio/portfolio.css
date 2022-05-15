@@ -1,3 +1,7 @@
+#portfolio {
+    background: var(--color-bg-variant)
+}
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
