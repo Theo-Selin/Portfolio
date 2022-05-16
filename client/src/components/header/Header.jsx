@@ -1,8 +1,8 @@
 import React from 'react'
 import "./header.css"
 import CTA from "./CTA"
-import ME from "../../assets/TheoPixel.gif"
-import CAT from "../../assets/SionPixel.gif"
+import ME from "./assets/TheoPixel.gif"
+import CAT from "./assets/SionPixel.gif"
 import HeaderSocials from './HeaderSocials'
 import {FaEnvelope} from "react-icons/fa"
 import Loop from '../loop/Loop'

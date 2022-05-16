@@ -45,8 +45,8 @@ const backendSkills = [
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>Stats Allocation</h5>
-      <h2>Build</h2>
+      <h5>Time Allocation</h5>
+      <h2>Experience</h2>
       <img src={BOOK} className="buildIcon" alt="book" />
 
       <div className="container experience__container">

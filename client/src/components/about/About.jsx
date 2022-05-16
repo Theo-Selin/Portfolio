@@ -31,7 +31,7 @@ const About = () => {
             <article className="about__card about__card_projects">
               <FaGem className="about__icon" />
               <h5>Projects</h5>
-              <small>2+ Projects</small>
+              <small>100+ Ideas</small>
             </article>
           </div>
 

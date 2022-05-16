@@ -1,9 +1,9 @@
 import React from 'react'
-import {useState} from "react"
+import { useState } from "react"
 import "./nav.css"
-import {AiFillHome} from "react-icons/ai"
-import {GiLifeBar} from "react-icons/gi"
-import {FaGem, FaEnvelope, FaUserCircle} from "react-icons/fa"
+import { AiFillHome } from "react-icons/ai"
+import { GiLifeBar } from "react-icons/gi"
+import { FaGem, FaEnvelope, FaUserCircle } from "react-icons/fa"
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#")

@@ -1,9 +1,7 @@
 import React from 'react'
 import "./portfolio.css"
-import IMG1 from "../../assets/me.png"
-import IMG2 from "../../assets/me.png"
-import IMG3 from "../../assets/me.png"
-import IMG4 from "../../assets/me.png"
+import IMG1 from "./assets/Spotifan.png"
+import IMG2 from "./assets/Paralifer.png"
 
 const data = [
   {
@@ -19,21 +17,7 @@ const data = [
     title: "Paralifer",
     github: "https://github.com",
     demo: "link"
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: "My World",
-    github: "https://github.com",
-    demo: "link"
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Spotifan",
-    github: "https://github.com",
-    demo: "link"
-  },
+  }
 ]
 
 const Portfolio = () => {
@@ -50,10 +34,10 @@ const Portfolio = () => {
               <div className="portfolio__item_image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
               <div className='portfolio__item_cta'>
+                <h3>{title}</h3>
                 <a href={github} className='btn' target="_blank">GitHub</a>
-                <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
+                {/* <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a> */}
               </div>
             </article>
             )
