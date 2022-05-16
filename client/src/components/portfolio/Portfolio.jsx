@@ -4,8 +4,6 @@ import IMG1 from "../../assets/me.png"
 import IMG2 from "../../assets/me.png"
 import IMG3 from "../../assets/me.png"
 import IMG4 from "../../assets/me.png"
-import IMG5 from "../../assets/me.png"
-import IMG6 from "../../assets/me.png"
 
 const data = [
   {
