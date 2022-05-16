@@ -1,3 +1,7 @@
+#testimonials {
+    background: var(--color-bg-variant);
+}
+
 .container.testimonials__container {
     width: 40%;
     padding-bottom: 3rem;
@@ -13,7 +17,7 @@
 }
 
 .testimonial {
-    background: var(--color-bg-variant);
+    background: var(--color-bg);
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
