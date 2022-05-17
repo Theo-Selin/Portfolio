@@ -2,7 +2,8 @@ import React from "react";
 import SkillBar from "react-skillbars";
 import "./experience.css";
 import { AiFillCheckCircle } from "react-icons/ai";
-import BOOK from "../../assets/book.gif"
+import COMPUTER from "./assets/computer.gif"
+import MAGIC from "./assets/magic.gif"
 
 const frontendSkills = [
   { 
@@ -47,10 +48,10 @@ const Experience = () => {
     <section id="experience">
       <h5>Time Allocation</h5>
       <h2>Experience</h2>
-      <img src={BOOK} className="buildIcon" alt="book" />
 
       <div className="container experience__container">
         <div className="experience__frontend">
+          <img src={MAGIC} className="buildIcon" alt="book" />
           <h3>Frontend Development</h3>
           <SkillBar 
             skills={frontendSkills} 
@@ -95,6 +96,7 @@ const Experience = () => {
         </div>
 
         <div className="experience__backend">
+          <img src={COMPUTER} className="buildIcon" alt="book" />
           <h3>Backend Development</h3>
           <SkillBar 
             skills={backendSkills} 
