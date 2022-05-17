@@ -6,6 +6,7 @@ import IMG3 from "./assets/active15.png"
 import IMG4 from "./assets/passive5.png"
 import IMG5 from "./assets/active11.png"
 import IMG6 from "./assets/passive3.png"
+import CROWN from "./assets/crown.gif"
 
 const data = [
   {
@@ -46,17 +47,18 @@ const Services = () => {
 
       <h5>What I offer</h5>
       <h2>Social Traits</h2>
+      <img className="traitIcon" src={CROWN} alt="crown" />
 
       <div className="container services__container">
         {
           data.map(({id, image, title}) => {
             return (
-              <article key={id} className='trait__item'>
-              <div className="trait__item_image">
+              <div key={id} className='trait__card'>
+                <div className="trait__card_cover">
                 <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-            </article>
+                </div>
+                <h3>{title}</h3>
+            </div>
             )
           })
         }

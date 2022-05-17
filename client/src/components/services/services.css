@@ -7,38 +7,118 @@
 }
 
 .services__container {
+    padding-bottom: 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 5rem;
 }
 
-.trait__item {
-    margin-bottom: 3rem;
-    text-align: center;
-    width: 100%;
-}
-
-.trait__item_image {
+.trait__card {
+    position: relative;
+    z-index: 1;
+    width: 10rem;
     margin: auto;
-    width: 5rem;
+    padding-bottom: 10rem;
+    perspective: 1000px;
+    border-radius: 50%;
 }
 
-.trait__item img {
-    margin-bottom: 1rem;
+.trait__card h3 {
+    position: absolute;
+    text-align: center;
+    top: 110%;
+    width: 10rem;
+    margin: auto;
+    color: var(--color-primary-variant)
+}
+
+.trait__card_cover {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    perspective-origin: 50% 50%;
+    transform-style: preserve-3d;
+    transform-origin: top center;
+    will-change: transform;
+    transform: skewX(0.001deg);
+    transition: transform 0.35s ease-in-out;
     border-radius: 50%;
-    border: 2px solid var(--color-primary);
-    box-shadow:0 0 5px .2rem rgba(82, 189, 255, 0.468);
+}
+
+.trait__card_cover:after {
+    display: block;
+    content: "";
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background:
+        linear-gradient(226deg,
+            rgba(255, 255, 255, 0.4) 0%,
+            rgba(255, 255, 255, 0.4) 35%,
+            rgba(255, 255, 255, 0.2) 42%,
+            rgba(255, 255, 255, 0) 60%);
+    transform: translateY(-30%);
+    will-change: transform;
+    transition: transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
+}
+
+.trait__card:hover .trait__card_cover {
+    transform: rotateX(7deg) translateY(-6px);
+}
+
+.trait__card:hover .trait__card_cover:after {
+    transform: translateY(0%);
+}
+
+.trait__card:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 8%;
+    left: 6%;
+    width: 9rem;
+    height: 9rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 5px 10px rgba(0, 0, 0, 0.4);
+    will-change: skewX(0.001deg);
+    transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out;
+    border-radius: 50%;
+}
+
+.trait__card:hover:before {
+    opacity: 0.6;
+    transform: rotateX(7deg) translateY(-6px) scale(1.05);
+}
+
+.traitIcon {
+    width: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM) ================ */
-@media screen and (max-width: 1024px) {
-
-}
+@media screen and (max-width: 1024px) {}
 
 /* ================ MEDIA QUERIES (SMALL) ================ */
 @media screen and (max-width: 600px) {
     .services__container {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
+    }
+
+    .trait__card {
+        width: 8rem;
+    }
+
+    .trait__card:before {
+        width: 7rem;
+        height: 7rem;
     }
 }
