@@ -59,16 +59,7 @@
     background: url("./assets/Layer_0009.png") repeat-x;
     animation: slide 54s linear infinite;
 }
-.image11 {
-    z-index: -11;
-    background: url("./assets/Layer_0010.png") repeat-x;
-    background-size: 25%;
-}
-.image12 {
-    z-index: -12;
-    background: url("./assets/Layer_0011.png") repeat-x;
-    animation: slide 62s linear infinite;
-}
+
 
 @keyframes slide {
     0% {
@@ -86,6 +77,10 @@
 
 /* ================ MEDIA QUERIES (SMALL) ================ */
 @media screen and (max-width: 600px) {
-
-
+    .scrolling__image {
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: 400%;
+    }
 }
