@@ -7,7 +7,6 @@
 }
 
 .services__container {
-    padding-bottom: 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem;
@@ -16,20 +15,19 @@
 .trait__card {
     position: relative;
     z-index: 1;
-    width: 10rem;
+    min-width: 8rem;
     margin: auto;
     padding-bottom: 10rem;
     perspective: 1000px;
-    border-radius: 50%;
 }
 
-.trait__card h3 {
-    position: absolute;
+.trait__card_cover h3 {
+    position: relative;
     text-align: center;
-    top: 110%;
-    width: 10rem;
+    top: 70%;
+    max-width: 100%;
     margin: auto;
-    color: var(--color-primary-variant)
+    color: var(--color-white);
 }
 
 .trait__card_cover {
@@ -38,14 +36,13 @@
     top: 0;
     left: 0;
     overflow: hidden;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     perspective-origin: 50% 50%;
     transform-style: preserve-3d;
     transform-origin: top center;
     will-change: transform;
     transform: skewX(0.001deg);
     transition: transform 0.35s ease-in-out;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .trait__card_cover:after {
@@ -82,13 +79,13 @@
     position: absolute;
     top: 8%;
     left: 6%;
-    width: 9rem;
+    width: 7rem;
     height: 9rem;
     background-color: rgba(0, 0, 0, 0.4);
     box-shadow: 0 1px 5px 10px rgba(0, 0, 0, 0.4);
     will-change: skewX(0.001deg);
     transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .trait__card:hover:before {
@@ -111,14 +108,6 @@
 @media screen and (max-width: 600px) {
     .services__container {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .trait__card {
-        width: 8rem;
-    }
-
-    .trait__card:before {
-        width: 7rem;
-        height: 7rem;
+        gap: 2rem;
     }
 }

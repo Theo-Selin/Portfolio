@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me_image">
-            <img src={ME} alt="About Image"></img>
+            <img src={ME} alt="About"></img>
           </div>
         </div>
         <div className="about__content">
@@ -36,10 +36,10 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Doloremque, aliquid illo accusamus ea, modi dolore similique tempore, 
-            mollitia perferendis pariatur sunt ex deleniti nulla praesentium omnis distinctio. 
-            Esse, maiores perferendis!
+            I'm here with my cat to welcome you to our world. Feel free to stay 
+            for as long as you'd like. I love making sites come to life and provide 
+            unique and exciting experiences. I'm new when it comes to programming but 
+            have years of experiences with design and layout. Scroll away to learn more about me.
           </p>
           
         </div>

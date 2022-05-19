@@ -56,9 +56,9 @@ const Services = () => {
               <div key={id} className='trait__card'>
                 <div className="trait__card_cover">
                 <img src={image} alt={title} />
-                </div>
                 <h3>{title}</h3>
-            </div>
+                </div>
+              </div>
             )
           })
         }

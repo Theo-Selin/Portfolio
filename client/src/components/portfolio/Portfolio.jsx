@@ -2,6 +2,9 @@ import React from 'react'
 import "./portfolio.css"
 import IMG1 from "./assets/Spotifan.png"
 import IMG2 from "./assets/Paralifer.png"
+import IMG3 from "./assets/NFT.png"
+import IMG4 from "./assets/Portfolio.png"
+import BOOK from "./assets/book.gif"
 
 const data = [
   {
@@ -17,6 +20,20 @@ const data = [
     title: "Paralifer",
     github: "https://github.com",
     demo: "link"
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: "NFT",
+    github: "https://github.com",
+    demo: "link"
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Portfolio",
+    github: "https://github.com",
+    demo: "link"
   }
 ]
 
@@ -25,25 +42,21 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>Recent Projects</h5>
       <h2>Portfolio</h2>
+      <img className="portfolioIcon" src={BOOK} alt="crown" />
 
       <div className="container portfolio__container">
         {
           data.map(({id, image, title, github, demo}) => {
             return (
-              <article key={id} className='portfolio__item'>
-              <div className="portfolio__item_image">
-                <img src={image} alt={title} />
+            <div key={id} className='portfolio__card'>
+              <div className="portfolio__card_cover">
+              <img src={image} alt={title} />
+              <h3>{title}</h3>
               </div>
-              <div className='portfolio__item_cta'>
-                <h3>{title}</h3>
-                <a href={github} className='btn' target="_blank">GitHub</a>
-                {/* <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a> */}
-              </div>
-            </article>
+            </div>
             )
           })
         }
-
       </div>
     </section>
   )
