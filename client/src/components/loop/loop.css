@@ -6,7 +6,7 @@
     position: absolute;
     bottom: 0;
     height: 100%;
-    width: 400%;
+    width: 150vw;
 }
 
 .image1 {
@@ -59,7 +59,11 @@
     background: url("./assets/Layer_0009.png") repeat-x;
     animation: slide 54s linear infinite;
 }
-
+.image11 {
+    z-index: -11;
+    background: url("./assets/Layer_0010.png") repeat-x;
+    background-size: 67%;
+}
 
 @keyframes slide {
     0% {
