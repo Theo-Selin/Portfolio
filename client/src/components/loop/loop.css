@@ -6,7 +6,7 @@
     position: absolute;
     bottom: 0;
     height: 100%;
-    width: 150vw;
+    width: 400%;
 }
 
 .image1 {
@@ -61,8 +61,8 @@
 }
 .image11 {
     z-index: -11;
-    background: url("./assets/Layer_0010.png") repeat-x;
-    background-size: 67%;
+    background: url("./assets/Layer_0010.png");
+    background-size: 25%;
 }
 
 @keyframes slide {
@@ -76,15 +76,11 @@
 
 /* ================ MEDIA QUERIES (MEDIUM) ================ */
 @media screen and (max-width: 1024px) {
-
 }
 
 /* ================ MEDIA QUERIES (SMALL) ================ */
 @media screen and (max-width: 600px) {
-    .scrolling__image {
-        position: absolute;
-        bottom: 0;
-        height: 100%;
-        width: 400%;
+    .scrolling__image_container {
+        display: none;
     }
 }
