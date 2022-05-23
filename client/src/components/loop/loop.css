@@ -5,8 +5,8 @@
 .scrolling__image {
     position: absolute;
     bottom: 0;
-    height: 100%;
-    width: 400%;
+    min-height: 100%;
+    min-width: 400%;
 }
 
 .image1 {

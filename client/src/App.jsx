@@ -13,7 +13,7 @@ import Services from './components/services/Services'
 const App = () => {
   return (
     <>
-      {/* <ParticlesApp /> */}
+      <ParticlesApp />
       <Header />
       <Nav />
       <About />
