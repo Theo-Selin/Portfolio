@@ -1,5 +1,11 @@
-.scrolling__image {
+.scrolling__image_container {
     position: absolute;
+    top: 0;
+    height: 793px;
+    width: 3712px;
+}
+.scrolling__image {
+    position: fixed;
     top: 0;
     height: 793px;
     width: 3712px;
