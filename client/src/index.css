@@ -27,6 +27,7 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -44,6 +45,7 @@ input:-webkit-autofill:active{
 
 body {
     overflow-x: hidden;
+    height: 100%;
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
