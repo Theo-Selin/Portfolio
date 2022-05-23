@@ -134,6 +134,11 @@ img {
 
 /* ================ MEDIA QUERIES (SMALL) ================ */
 @media screen and (max-width: 600px) {
+    body {
+        position: fixed;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
     .container {
         width: var(--container-width-sm)
     }
