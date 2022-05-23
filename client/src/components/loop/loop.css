@@ -1,11 +1,12 @@
 .scrolling__image_container {
-    overflow: hidden;
+    height: 100%;
+    /* overflow: hidden; */
 }
 
 .scrolling__image {
     position: absolute;
-    bottom: 0;
-    height: 100%;
+    top: 0;
+    height: 793px;
     width: 400%;
 }
 
@@ -76,7 +77,7 @@
 
 /* ================ MEDIA QUERIES (MEDIUM) ================ */
 @media screen and (max-width: 1024px) {
-    .image1 {
+    /* .image1 {
         animation: none;
     }
     .image2 {
@@ -108,7 +109,7 @@
     }
     .image11 {
         animation: none;
-    }
+    } */
 }
 
 /* ================ MEDIA QUERIES (SMALL) ================ */
