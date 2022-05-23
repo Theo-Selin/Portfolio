@@ -5,7 +5,7 @@
 .scrolling__image {
     position: absolute;
     bottom: 0;
-    height: 100vh;
+    height: 100%;
     width: 400%;
 }
 
@@ -80,7 +80,37 @@
 
 /* ================ MEDIA QUERIES (SMALL) ================ */
 @media screen and (max-width: 600px) {
-    /* .scrolling__image_container {
-        display: none;
-    } */
+    .image1 {
+        animation: none;
+    }
+    .image2 {
+        animation: none;
+    }
+    .image3 {
+        animation: none;
+    }
+    .image4 {
+        animation: none;
+    }
+    .image5 {
+        animation: none;
+    }
+    .image6 {
+        animation: none;
+    }
+    .image7 {
+        animation: none;
+    }
+    .image8 {
+        animation: none;
+    }
+    .image9 {
+        animation: none;
+    }
+    .image10 {
+        animation: none;
+    }
+    .image11 {
+        animation: none;
+    }
 }
