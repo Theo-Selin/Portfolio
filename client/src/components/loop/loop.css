@@ -71,7 +71,7 @@
 
 /* ================ MEDIA QUERIES (MEDIUM) ================ */
 @media screen and (max-width: 1024px) {
-    /* .image1 {
+    .image1 {
         animation: none;
     }
     .image2 {
@@ -103,7 +103,7 @@
     }
     .image11 {
         animation: none;
-    } */
+    }
 }
 
 /* ================ MEDIA QUERIES (SMALL) ================ */
