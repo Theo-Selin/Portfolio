@@ -43,8 +43,13 @@ input:-webkit-autofill:active{
 }
 
 #controlled__scroll {
-    height: 100%;
-    overflow: auto;
+    position: absolute;
+    top: 0.5px;
+    left: 0;
+    right: 0;
+    bottom: 0.5px;
+    overflow-x: hidden; /* or any other value */
+    overflow-y: auto; /* or any other value */
 }
 
 body {
