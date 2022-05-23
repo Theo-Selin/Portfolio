@@ -1,13 +1,7 @@
-.scrolling__image_container {
-    position: absolute;
-    top: 0;
-    height: 793px;
-    width: 3712px;
-}
 .scrolling__image {
     position: absolute;
     top: 0;
-    height: 793px;
+    height: calc(100vh - calc(100vh - 100%));
     width: 3712px;
 }
 
