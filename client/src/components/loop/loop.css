@@ -1,13 +1,8 @@
-.scrolling__image_container {
-    height: 793px;
-    /* overflow: hidden; */
-}
-
 .scrolling__image {
     position: absolute;
     top: 0;
     height: 793px;
-    width: 400%;
+    width: 3712px;
 }
 
 .image1 {
@@ -60,11 +55,10 @@
     background: url("./assets/Layer_0009.png") repeat-x;
     animation: slide 54s linear infinite;
 }
-.image11 {
+/* .image11 {
     z-index: -11;
-    background: url("./assets/Layer_0010.png");
-    background-size: 25%;
-}
+    background: url("./assets/Layer_0010.png") repeat-x;
+} */
 
 @keyframes slide {
     0% {
