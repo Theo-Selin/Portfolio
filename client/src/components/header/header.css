@@ -39,6 +39,17 @@ header {
     display: inline-block;
     margin-bottom: 1rem;
 }
+.meIdle {
+    width: 10rem;
+    display: none;
+    margin-top: 11.7rem;
+}
+
+.catIdle {
+    width: 3.5rem;
+    display: none;
+    margin-bottom: 1rem;
+}
 
 /* ================ SCROLL DOWN ================ */
 .message {
@@ -73,5 +84,23 @@ header {
     .header__socials, 
     .message {
         display: none;
+    }
+    .me {
+        display: none;
+    }
+    
+    .cat {
+        display: none;
+    }
+    .meIdle {
+        width: 10rem;
+        display: inline-block;
+        margin-top: 11.7rem;
+    }
+    
+    .catIdle {
+        width: 3.5rem;
+        display: inline-block;
+        margin-bottom: 1rem;
     }
 }
