@@ -47,7 +47,7 @@ const Contact = () => {
         </form>
         <div className={submitted ? "confirmation__card visible" : "confirmation__card hidden"}>
           <h2>Message sent</h2>
-          <img src={CONFIRM} alt="About Image"></img>
+          <img src={CONFIRM} alt="About"></img>
         </div>
       </div>
     </section>

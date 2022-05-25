@@ -42,13 +42,13 @@ header {
 .meIdle {
     width: 10rem;
     display: none;
-    margin-top: 11.7rem;
+    margin-top: 11.9rem;
 }
 
 .catIdle {
     width: 3.5rem;
     display: none;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 /* ================ SCROLL DOWN ================ */
@@ -76,15 +76,6 @@ header {
     .message {
         display: none;
     }
-
-}
-
-/* ================ MEDIA QUERIES (SMALL) ================ */
-@media screen and (max-width: 600px) {
-    .header__socials, 
-    .message {
-        display: none;
-    }
     .me {
         display: none;
     }
@@ -93,14 +84,19 @@ header {
         display: none;
     }
     .meIdle {
-        width: 10rem;
         display: inline-block;
-        margin-top: 11.7rem;
     }
     
     .catIdle {
-        width: 3.5rem;
         display: inline-block;
-        margin-bottom: 1rem;
+    }
+
+}
+
+/* ================ MEDIA QUERIES (SMALL) ================ */
+@media screen and (max-width: 600px) {
+    .header__socials, 
+    .message {
+        display: none;
     }
 }
