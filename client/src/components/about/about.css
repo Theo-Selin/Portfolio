@@ -23,7 +23,7 @@
 .about__me_image {
     z-index: 1;
     overflow: hidden;
-    transition: var(--transition)
+    transition: var(--transition);
 }
 
 .about__cards {

@@ -29,11 +29,11 @@ header {
 
 /* ================ ME ================ */
 .me {
+    z-index: -4;
     width: 10rem;
     display: inline-block;
-    margin-top: 11.7rem;
+    margin-top: 12rem;
 }
-
 .cat {
     width: 3.5rem;
     display: inline-block;
@@ -42,13 +42,12 @@ header {
 .meIdle {
     width: 10rem;
     display: none;
-    margin-top: 11.9rem;
+    margin-top: 12.2rem;
 }
-
 .catIdle {
     width: 3.5rem;
     display: none;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 /* ================ SCROLL DOWN ================ */
