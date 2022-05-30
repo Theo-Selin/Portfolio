@@ -29,11 +29,11 @@ header {
 
 /* ================ ME ================ */
 .me {
+    z-index: -4;
     width: 10rem;
     display: inline-block;
-    margin-top: 11.7rem;
+    margin-top: 12rem;
 }
-
 .cat {
     width: 3.5rem;
     display: inline-block;
@@ -42,9 +42,8 @@ header {
 .meIdle {
     width: 10rem;
     display: none;
-    margin-top: 11.7rem;
+    margin-top: 12.2rem;
 }
-
 .catIdle {
     width: 3.5rem;
     display: none;
@@ -76,15 +75,6 @@ header {
     .message {
         display: none;
     }
-
-}
-
-/* ================ MEDIA QUERIES (SMALL) ================ */
-@media screen and (max-width: 600px) {
-    .header__socials, 
-    .message {
-        display: none;
-    }
     .me {
         display: none;
     }
@@ -93,14 +83,19 @@ header {
         display: none;
     }
     .meIdle {
-        width: 10rem;
         display: inline-block;
-        margin-top: 11.7rem;
     }
     
     .catIdle {
-        width: 3.5rem;
         display: inline-block;
-        margin-bottom: 1rem;
+    }
+
+}
+
+/* ================ MEDIA QUERIES (SMALL) ================ */
+@media screen and (max-width: 600px) {
+    .header__socials, 
+    .message {
+        display: none;
     }
 }
