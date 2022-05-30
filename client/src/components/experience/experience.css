@@ -1,3 +1,7 @@
+#experience {
+    background: var(--color-bg-variant);
+}
+
 .experience__container {
     display: grid;
     grid-template-columns: 1;

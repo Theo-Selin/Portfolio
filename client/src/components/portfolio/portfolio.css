@@ -1,6 +1,6 @@
-/* #portfolio {
+#portfolio {
     background: var(--color-bg-variant)
-} */
+}
 
 .container.portfolio__container {
     display: grid;
