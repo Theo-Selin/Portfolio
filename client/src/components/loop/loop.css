@@ -55,10 +55,11 @@
     background: url("./assets/Layer_0009.png") repeat-x;
     animation: slide 54s linear infinite;
 }
-/* .image11 {
+.image11 {
     z-index: -11;
     background: url("./assets/Layer_0010.png") repeat-x;
-} */
+    background-size: 25%;
+}
 
 @keyframes slide {
     0% {

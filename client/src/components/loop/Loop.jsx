@@ -15,7 +15,7 @@ const Loop = () => {
         <div className="scrolling__image image8"></div>
         <div className="scrolling__image image9"></div>
         <div className="scrolling__image image10"></div>
-        {/* <div className="scrolling__image image11"></div> */}
+        <div className="scrolling__image image11"></div>
       </div>
     </>
   );
