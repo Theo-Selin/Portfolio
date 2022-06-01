@@ -9,7 +9,7 @@
 }
 
 .skillbar {
-    background: var(--color-bg-variant);
+    background: none;
 }
 
 .skillbar-bar {
