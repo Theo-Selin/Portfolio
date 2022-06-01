@@ -18,6 +18,8 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
+    --skillBarBgColor: transparent;
+
     --transition: all 200ms ease;
 
     --container-width-lg: 50%;
