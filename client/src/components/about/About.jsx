@@ -36,10 +36,11 @@ const About = () => {
           </div>
 
           <p>
-            I'm here with my cat to welcome you to our world. Feel free to stay 
-            for as long as you'd like. I love making sites come to life and provide 
-            unique and exciting experiences. I'm new when it comes to programming but 
-            have years of experiences with design and layout. Scroll away to learn more about me.
+            I'm an aspiring web developer who loves making static sites come to life.
+            I have years of experience with design and have a knack for UI/UX from years
+            of gaming and scrolling the web. I grew up in this world and can easily tell
+            when something doesn't feel right. I love to create and birth new exciting experiences
+            for the user. Feel free to stay for as long as you'd like!
           </p>
           
         </div>

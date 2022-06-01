@@ -8,8 +8,12 @@
     gap: 2rem;
 }
 
+.skillbar {
+    background: none !important;
+}
+
 .skillbar-bar {
-    border-radius: 0px !important;
+    border-radius: 0 20px 20px 0 !important;
 }
 
 .experience__container > div {
