@@ -3,7 +3,6 @@ import "./loop.css";
 
 const Loop = () => {
   return (
-    <>
       <div className="scrolling__image_container">
         <div className="scrolling__image image1"></div>
         <div className="scrolling__image image2"></div>
@@ -17,7 +16,6 @@ const Loop = () => {
         <div className="scrolling__image image10"></div>
         <div className="scrolling__image image11"></div>
       </div>
-    </>
   );
 };
 
